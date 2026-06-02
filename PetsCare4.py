@@ -92,7 +92,7 @@ def REGISTRO():
     tk.Label(ventana2, text="Especie(perro/gato):",font=("Arial",13),bg="#D2DFE5").pack()
     entry_especie=tk.Entry(ventana2)
     entry_especie.pack()
-    tk.Label(ventana2, text="Sexo(masculino/femenino):",font=("Arial",13),bg="#D2DFE5").pack()
+    tk.Label(ventana2, text="Sexo(macho/hembra):",font=("Arial",13),bg="#D2DFE5").pack()
     entry_sexo=tk.Entry(ventana2)
     entry_sexo.pack()
     tk.Label(ventana2, text="Raza(pequeña/mediana/grande):",font=("Arial",13),bg="#D2DFE5").pack()
